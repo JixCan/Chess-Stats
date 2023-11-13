@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Chess Stats</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Введите ваши никнеймы:</h1>
-    <form action="#" method="post">
+    <form id="chessForm">
         <label for="chessComNickname">Никнейм на chess.com:</label>
         <input type="text" id="chessComNickname" name="chessComNickname" required>
 
@@ -15,6 +16,11 @@
 
         <input type="submit" value="Отправить">
     </form>
+    
+    <!-- Добавленные элементы -->
+    <div id="playerInfo"></div>
+    <div id="playerStats"></div>
 
+    <script src="script.js"></script>
 </body>
 </html>

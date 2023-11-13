@@ -1,0 +1,37 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+#playerInfo,
+#playerStats {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#playerInfo img {
+    max-width: 100%;
+    height: auto;
+}
